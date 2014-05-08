@@ -1,4 +1,5 @@
 # Determine whether a string contains a SIN (Social Insurance Number).
+# A SIN is 9 digits and we are assuming that they must have dashes in them
 def has_sin?(string)
 end
 
@@ -7,7 +8,9 @@ puts has_sin?("please don't share this: 234-604-142") == true
 
 puts "has_sin? returns false if it doesn't have a SIN"
 puts has_sin?("please confirm your identity: XXX-XXX-142") == false
-
+puts has_sin?("please don't share this: 234-6043-142") == false
+puts has_sin?("please don't share this: 2342-604-142") == false
+puts has_sin?("please don't share this: 234-604-1421") == false
 
 # Return the Social Insurance Number from a string.
 def grab_sin(string)
