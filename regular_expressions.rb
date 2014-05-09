@@ -29,7 +29,7 @@ def grab_all_sns(string)
 end
 
 puts "grab_all_sins returns all SINs if the string has any SINs"
-puts grab_all_sins("234-604-142, 350-802-074, 013-630-876") == ["234-604-142", "350-802-074", "013-603-876"]
+puts grab_all_sins("234-604-142, 350-802-074, 013-630-876") == ["234-604-142", "350-802-074", "013-630-876"]
 
 puts "grab_all_sins returns an empty Array if it doesn't have any SINs"
 puts grab_all_sins("please confirm your identity: XXX-XXX-142") == []
