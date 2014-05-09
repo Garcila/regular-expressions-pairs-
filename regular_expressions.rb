@@ -25,7 +25,7 @@ puts grab_sin("please confirm your identity: XXX-XXX-142") == nil
 
 
 # Return all of the SINs from a string, not just one.
-def grab_all_sns(string)
+def grab_all_sins(string)
 end
 
 puts "grab_all_sins returns all SINs if the string has any SINs"
