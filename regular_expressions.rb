@@ -48,7 +48,7 @@ puts hide_all_sins(string) == string
 
 
 # Ensure all of the Social Insurance numbers use dashes for delimiters.
-# Example: 480.01.4430 and 480014430 would both be 480-01-4430.
+# Example: 480.014.430 and 480014430 would both be 480-014-430.
 def format_sins(string)
 end
 
